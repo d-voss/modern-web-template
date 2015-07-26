@@ -1,0 +1,27 @@
+{
+  "name": "modern-web-template",
+  "version": "0.1.0-pre",
+  "description": "Boilerplate for web development with HTML5 and SCSS.",
+  "main": "index.html",
+  "scripts": {
+     "start": "./node_modules/.bin/http-server",
+     "install": "bower install && bundle install --path vendor/bundle",
+     "compass-watch": "bundle exec ./vendor/bundle/ruby/2.0.0/bin/compass watch -c src/compass/config.rb",
+     "compass-compile": "bundle exec ./vendor/bundle/ruby/2.0.0/bin/compass compile --force -c src/compass/config.rb",
+     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": {
+    "name": "Dirk Voß",
+    "url": "https://github.com/d-voss"
+  },
+  "contributors": [
+    {
+      "name": "Michael Kurze",
+      "url": "https://x1b.github.io"
+    }
+  ],
+  "license": "MIT",
+  "devDependencies": {
+    "http-server": "^0.8.0"
+  }
+}
