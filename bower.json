@@ -19,8 +19,10 @@
     "tests"
   ],
   "dependencies": {
-    "normalize.css": "~3.0.3",
+    "Font-Awesome": "~4.3.0",
+    "animate.css": "~3.4.0",
     "material-design-lite": "~1.0.1",
-    "Font-Awesome": "~4.3.0"
+    "normalize.css": "~3.0.3",
+    "picturefill": "~2.3.1"
   }
 }
