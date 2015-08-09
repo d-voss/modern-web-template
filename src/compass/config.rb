@@ -25,9 +25,9 @@ puts 'Using bower_components at ' + bower_dir
 
 # Find Third party SCSS
 # - Material Design Lite
-add_import_path bower_dir + '/material-design-lite/src/'
+add_import_path bower_dir + '/materialize/sass/'
 # - Font-Awesome
-add_import_path bower_dir
+add_import_path bower_dir + '/Font-Awesome/scss/'
 
 
 # Project directories
