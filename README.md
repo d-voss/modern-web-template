@@ -10,7 +10,6 @@ Install prerequisites (may require sudo):
 
 ```
 npm install -g bower
-gem install bundler
 ```
 
 
