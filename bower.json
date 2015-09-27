@@ -21,8 +21,10 @@
   "dependencies": {
     "Font-Awesome": "~4.4.0",
     "animate.css": "~3.4.0",
-    "normalize.css": "~3.0.3",
     "picturefill": "~2.3.1",
-    "materialize": "~0.97.0"
+    "materialize": "~0.97.0",
+    "sanitize-css": "~1.1.0",
+    "object-fit": "~0.4.2",
+    "susy": "~2.2.6"
   }
 }

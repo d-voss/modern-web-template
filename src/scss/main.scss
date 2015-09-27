@@ -1,5 +1,5 @@
 // Overwrite some variables
-$roboto-font-path: "/bower_components/materialize/font/roboto/";
-$icons-font-path: "/bower_components/materialize/font/material-design-icons";
+$roboto-font-path: "../bower_components/materialize/font/roboto/";
+$icons-font-path: "../bower_components/materialize/font/material-design-icons";
 
-@import "materialize";
+@import "../../bower_components/materialize/sass/materialize";
